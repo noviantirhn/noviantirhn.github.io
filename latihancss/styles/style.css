@@ -1,0 +1,193 @@
+/* Start Body */
+body {
+    background-color: rgb(240, 172, 217);
+    color: rgb(19, 16, 16);
+    font-family:  arial, Times, serif;
+    font-size: 16px;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+/* End Body */
+
+/* Start Debug */
+.bg-purple {
+    background-color: rgb(204, 70, 204);
+}
+
+.bg-red {
+    background-color: rgb(233, 143, 206);
+}
+/* End Debug */
+
+/* Start Container */
+.container {
+    margin: 10px Auto;
+    overflow: auto;
+    width: 90%;
+    
+}
+/* End Container */
+
+/* Start Logo */
+.Logo {
+    text-align: center;
+}
+/* End Logo */
+
+/* Start Effect*/
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,700);
+.snip1581 {
+  font-family: 'Poppins:400,700', Arial, sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 250px;
+  max-width: 310px;
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+  text-align: left;
+  font-size: 16px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
+}
+.snip1581 * {
+  -webkit-transition: all 0.35s;
+  transition: all 0.35s;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.snip1581 img {
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1581 figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, transparent 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.snip1581 h3 {
+  font-size: 44px;
+  font-weight: 400;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 3px 0;
+}
+.snip1581 .title1 {
+  font-weight: 700;
+}
+.snip1581 .title2 {
+  color: #a58e7c;
+  font-weight: 300;
+}
+.snip1581 .title3 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.snip1581 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.snip1581:hover img,
+.snip1581.hover img {
+  -webkit-transform: scale(1.3) rotate(5deg);
+  transform: scale(1.3) rotate(5deg);
+}
+/* End Effect*/
+
+/* Start Menu Primer */
+.menu-primer ul {
+    border-radius: 4px;
+    box-shadow: 
+        0 3px 5px -1px rgba(0,0,0,.2),
+        0 6px 10px 0 rgba(0,0,0,.14),
+        0 1px 18px 0 rgba(0,0,0,.12);
+}
+
+.menu-primer Li {
+    border-right: 1px solid rgb(142, 216, 245);
+    display: inline-block;
+}
+
+.menu-primer a {
+    color: rgb(223, 203, 203);
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: inline-block;
+}
+
+.menu-primer a:hover {
+    background-color: rgb(238, 161, 192);
+    color: rgb(33, 99, 153);
+    text-decoration: none;
+}
+
+.menu-primer .active {
+    background-color: rgb(240, 132, 216);
+    color: rgb(103, 103, 238);
+    text-decoration: none;  
+}
+/* End Menu Primer */
+
+/* Start Anchor / Hyperlink */
+a:link,
+a:visited {
+    color:purple;
+    text-decoration: none;
+}   
+a:hover,
+a:active {
+    color:rgb(20, 34, 160);
+    text-decoration: underline;
+}
+/* End Anchor / Hyperlink */
+
+/* Start Heading */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 16px;
+}
+h5 {
+  font-size: 14px;
+}
+h6 {
+  font-size: 13px;
+}
+/* End Heading */
+
+/* Start Jumbotron */
+.jumbotron {
+  background-color: rgb(252, 246, 246);
+  border: 1px solid #faefef;
+  border-radius: 4px;
+  padding: 20px 0; 
+}
+/* End Jumbotron */
+
+/* Start Box */
+
+/* End Box */
